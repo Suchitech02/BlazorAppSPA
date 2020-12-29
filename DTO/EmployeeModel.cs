@@ -1,7 +1,8 @@
-namespace BlazorAppSPA.DTO
+using BlazorAppSPA.Models;
+namespace BlazorAppSPA.Models
 {
-    public class EmployeeModel
+public class EmployeeModel : Employee
     {
-        
+        public string CityName { get; set; }
     }
 }

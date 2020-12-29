@@ -1,11 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using BlazorAppSPA.DTO;
 using BlazorAppSPA.Models;
 
 namespace BlazorAppSPA.Repository
 {
-public interface IEmployeeService
+    public interface IEmployeeService
     {
         Task<IEnumerable<EmployeeModel>> GetEmployees();
         Task<bool> CreateEmployee(Employee employee);
