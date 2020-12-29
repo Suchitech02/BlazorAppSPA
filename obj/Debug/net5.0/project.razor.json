@@ -111,6 +111,270 @@
         }
       },
       {
+        "HashCode": 899676094,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.AddCity",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddCity"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.AddCity"
+        }
+      },
+      {
+        "HashCode": -1281005578,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.AddCity",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.AddCity"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.AddCity",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1923147185,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.EditCity",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditCity"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.EditCity"
+        }
+      },
+      {
+        "HashCode": -1614094022,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.EditCity",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.EditCity"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.EditCity",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1314080650,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.ListCities",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ListCities"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.ListCities"
+        }
+      },
+      {
+        "HashCode": 155930684,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.ListCities",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.ListCities"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.ListCities",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 510239469,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.DeleteCity",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DeleteCity"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.DeleteCity"
+        }
+      },
+      {
+        "HashCode": 603129786,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.DeleteCity",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.DeleteCity"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.DeleteCity",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -926580769,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.AddEmployee",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.AddEmployee"
+        }
+      },
+      {
+        "HashCode": 1694225935,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.AddEmployee",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.AddEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.AddEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -110456249,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.ListEmployees",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ListEmployees"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.ListEmployees"
+        }
+      },
+      {
+        "HashCode": 293114159,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.ListEmployees",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.ListEmployees"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.ListEmployees",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -664262206,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.DeleteEmployee",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DeleteEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.DeleteEmployee"
+        }
+      },
+      {
+        "HashCode": -1483781014,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.DeleteEmployee",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.DeleteEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.DeleteEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 803572035,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.EditEmployee",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.EditEmployee"
+        }
+      },
+      {
+        "HashCode": 664562359,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.EditEmployee",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.EditEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.EditEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 119583771,
         "Kind": "Components.Component",
         "Name": "BlazorAppSPA.Shared.MainLayout",
@@ -15922,6 +16186,16 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\Pages\\DeleteEmployee.razor",
+      "TargetPath": "Pages\\DeleteEmployee.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\Pages\\AddCity.razor",
+      "TargetPath": "Pages\\AddCity.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
@@ -15934,6 +16208,16 @@
     {
       "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\Pages\\ListEmployees.razor",
+      "TargetPath": "Pages\\ListEmployees.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\Pages\\EditCity.razor",
+      "TargetPath": "Pages\\EditCity.razor",
       "FileKind": "component"
     },
     {
@@ -15952,6 +16236,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\Pages\\EditEmployee.razor",
+      "TargetPath": "Pages\\EditEmployee.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
@@ -15962,8 +16251,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\Pages\\AddEmployee.razor",
+      "TargetPath": "Pages\\AddEmployee.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\Pages\\ListCities.razor",
+      "TargetPath": "Pages\\ListCities.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\BlazorAssignmnet2\\BlazorAppSPA\\Pages\\DeleteCity.razor",
+      "TargetPath": "Pages\\DeleteCity.razor",
       "FileKind": "component"
     }
   ],
