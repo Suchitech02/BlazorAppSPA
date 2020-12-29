@@ -1,5 +1,5 @@
 using BlazorAppSPA.Models;
-namespace BlazorAppSPA.Models
+namespace BlazorAppSPA.DTO
 {
 public class EmployeeModel : Employee
     {
