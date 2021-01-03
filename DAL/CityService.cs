@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using BlazorAppSPA.Models;
-using BlazorDapperSPA.DTO;
+using BlazorDapperSPA.Repository;
 
 namespace BlazorAppSPA.DAL
 {

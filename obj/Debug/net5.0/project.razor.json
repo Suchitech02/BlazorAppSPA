@@ -210,6 +210,39 @@
         }
       },
       {
+        "HashCode": 803572035,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.EditEmployee",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.EditEmployee"
+        }
+      },
+      {
+        "HashCode": 664562359,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.EditEmployee",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.EditEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.EditEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1299914982,
         "Kind": "Components.Component",
         "Name": "BlazorAppSPA.Pages.FetchData",
