@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using BlazorAppSPA.Models;
 using BlazorDapperSPA.Data;
 
-namespace BlazorAppSPA.Service
+namespace BlazorAppSPA.DAL
 {
     public class CityService : ICityService
     {

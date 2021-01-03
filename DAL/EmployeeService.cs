@@ -4,7 +4,7 @@ using BlazorAppSPA.DTO;
 using BlazorAppSPA.Models;
 using BlazorAppSPA.Repository;
 
-namespace BlazorAppSPA.Service
+namespace BlazorAppSPA.DAL
 {
     public class EmployeeService : IEmployeeService
     {

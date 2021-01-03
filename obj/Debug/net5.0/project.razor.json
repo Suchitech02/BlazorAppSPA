@@ -12,105 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1863417706,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.Index",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1796293885,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.Index",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppSPA.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1299914982,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.FetchData",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -1085087297,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.FetchData",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppSPA.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1201912833,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.Counter",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -1821811711,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.Counter",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppSPA.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 899676094,
         "Kind": "Components.Component",
         "Name": "BlazorAppSPA.Pages.AddCity",
@@ -140,105 +41,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorAppSPA.Pages.AddCity",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1923147185,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.EditCity",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EditCity"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.EditCity"
-        }
-      },
-      {
-        "HashCode": -1614094022,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.EditCity",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppSPA.Pages.EditCity"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.EditCity",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1314080650,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.ListCities",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ListCities"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.ListCities"
-        }
-      },
-      {
-        "HashCode": 155930684,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.ListCities",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppSPA.Pages.ListCities"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.ListCities",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 510239469,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.DeleteCity",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DeleteCity"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.DeleteCity"
-        }
-      },
-      {
-        "HashCode": 603129786,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.DeleteCity",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppSPA.Pages.DeleteCity"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.DeleteCity",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -276,35 +78,68 @@
         }
       },
       {
-        "HashCode": -110456249,
+        "HashCode": 1201912833,
         "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.ListEmployees",
+        "Name": "BlazorAppSPA.Pages.Counter",
         "AssemblyName": "BlazorAppSPA",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ListEmployees"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.ListEmployees"
+          "Common.TypeName": "BlazorAppSPA.Pages.Counter"
         }
       },
       {
-        "HashCode": 293114159,
+        "HashCode": -1821811711,
         "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.ListEmployees",
+        "Name": "BlazorAppSPA.Pages.Counter",
         "AssemblyName": "BlazorAppSPA",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorAppSPA.Pages.ListEmployees"
+            "TagName": "BlazorAppSPA.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.ListEmployees",
+          "Common.TypeName": "BlazorAppSPA.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 510239469,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.DeleteCity",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DeleteCity"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.DeleteCity"
+        }
+      },
+      {
+        "HashCode": 603129786,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.DeleteCity",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.DeleteCity"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.DeleteCity",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -342,35 +177,253 @@
         }
       },
       {
-        "HashCode": 803572035,
+        "HashCode": -1923147185,
         "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.EditEmployee",
+        "Name": "BlazorAppSPA.Pages.EditCity",
         "AssemblyName": "BlazorAppSPA",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EditEmployee"
+            "TagName": "EditCity"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.EditEmployee"
+          "Common.TypeName": "BlazorAppSPA.Pages.EditCity"
         }
       },
       {
-        "HashCode": 664562359,
+        "HashCode": -1614094022,
         "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.EditEmployee",
+        "Name": "BlazorAppSPA.Pages.EditCity",
         "AssemblyName": "BlazorAppSPA",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorAppSPA.Pages.EditEmployee"
+            "TagName": "BlazorAppSPA.Pages.EditCity"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.EditEmployee",
+          "Common.TypeName": "BlazorAppSPA.Pages.EditCity",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1299914982,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.FetchData",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -1085087297,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.FetchData",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1863417706,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.Index",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1796293885,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.Index",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1314080650,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.ListCities",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ListCities"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.ListCities"
+        }
+      },
+      {
+        "HashCode": 155930684,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.ListCities",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.ListCities"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.ListCities",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -110456249,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.ListEmployees",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ListEmployees"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.ListEmployees"
+        }
+      },
+      {
+        "HashCode": 293114159,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.ListEmployees",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.ListEmployees"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.ListEmployees",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 646712501,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.App",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.App"
+        }
+      },
+      {
+        "HashCode": -2109505805,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.App",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -127931043,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Shared.SurveyPrompt",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1250633968,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Shared.SurveyPrompt",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -500,92 +553,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorAppSPA.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -127931043,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 1250633968,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppSPA.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 646712501,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.App",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.App"
-        }
-      },
-      {
-        "HashCode": -2109505805,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.App",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppSPA.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
