@@ -3,11 +3,16 @@ using System.Threading.Tasks;
 using BlazorAppSPA.DTO;
 using BlazorAppSPA.Models;
 using BlazorAppSPA.Repository;
+using System.Data.SqlClient;
 
 namespace BlazorAppSPA.DAL
 {
     public class EmployeeService : IEmployeeService
     {
+        public EmployeeService()
+        {
+            
+        }
         public Task<bool> CreateEmployee(Employee employee)
         {
             throw new System.NotImplementedException();
