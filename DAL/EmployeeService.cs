@@ -21,7 +21,7 @@ namespace BlazorAppSPA.DAL
         public async Task<bool> CreateEmployee(Employee employee)
         {
             // New concept where dynamic parameter has been used
-            var parameters = new DynamicParameters();
+            var parameters = new DynamicParameters(); // Native API call thats why its faster than EF
             parameters.Add("Name", employee.Name, DbType.String);
             parameters.Add("Department", employee.Department, DbType.String);
             parameters.Add("Designation", employee.Designation, DbType.String);
@@ -57,24 +57,137 @@ namespace BlazorAppSPA.DAL
 
         }
 
-        public Task<bool> DeleteEmployee(int id)
+        public async Task<bool> DeleteEmployee(int id)
         {
-            throw new System.NotImplementedException();
+             var parameters = new DynamicParameters(); // Native API call thats why its faster than EF
+            parameters.Add("Id", id, DbType.Int32); // DvType is binding
+            // parameters.Add("CityName", employee.Name, DbType.String); will be used in UI
+            using(var con = new SqlConnection(Configuration.value))
+            {
+                if (con.State == ConnectionState.Closed)
+                {
+                    con.Open();
+                    try
+                    {
+                        // we can do same operation in  Ado.net by using execute nonquery
+                        await con.ExecuteAsync("Delete_Employee",parameters,commandType:CommandType.StoredProcedure);
+                    }
+                    catch(Exception ex)
+                    {
+                        throw ex;
+                    }
+                    finally
+                    {
+                        if(con.State == ConnectionState.Open)
+                        {
+                            con.Close();
+                        }
+                    }
+                
+
+                }
+                return true;
+            }
         }
 
-        public Task<bool> EditEmployee(int id, EmployeeModel employee)
+        public async Task<bool> EditEmployee(int id, EmployeeModel employee)
         {
-            throw new System.NotImplementedException();
+            var parameters = new DynamicParameters(); // Native API call thats why its faster than EF
+            parameters.Add("Id", id, DbType.Int32); // DvType is binding
+            parameters.Add("Name", employee.Name, DbType.String);
+            parameters.Add("Department", employee.Department, DbType.String);
+            parameters.Add("Designation", employee.Designation, DbType.String);
+            parameters.Add("Company", employee.Company, DbType.String);
+            parameters.Add("CityId", employee.CityId, DbType.String);
+            // parameters.Add("CityName", employee.Name, DbType.String); will be used in UI
+            using(var con = new SqlConnection(Configuration.value))
+            {
+                if (con.State == ConnectionState.Closed)
+                {
+                    con.Open();
+                    try
+                    {
+                        // we can do same operation in  Ado.net by using execute nonquery
+                        await con.ExecuteAsync("Update_Employee",parameters,commandType:CommandType.StoredProcedure);
+                    }
+                    catch(Exception ex)
+                    {
+                        throw ex;
+                    }
+                    finally
+                    {
+                        if(con.State == ConnectionState.Open)
+                        {
+                            con.Close();
+                        }
+                    }
+                
+
+                }
+                return true;
+            }
         }
 
-        public Task<IEnumerable<EmployeeModel>> GetEmployees()
+        public async Task<IEnumerable<EmployeeModel>> GetEmployees()
         {
-            throw new System.NotImplementedException();
+            IEnumerable<EmployeeModel> employees = null;
+             using(var con = new SqlConnection(Configuration.value))
+            {
+                if (con.State == ConnectionState.Closed)
+                {
+                    con.Open();
+                    try
+                    {
+                        // QueryAsync has been used for Retrieval the data 
+                        employees = await con.QueryAsync<EmployeeModel>("Get_AllEmployees", commandType: CommandType.StoredProcedure);
+                    }
+                    catch(Exception ex)
+                    {
+                        throw ex;
+                    }
+                    finally
+                    {
+                        if(con.State == ConnectionState.Open)
+                        {
+                            con.Close();
+                        }
+                    }
+                }
+                return employees;
+            }
         }
 
-        public Task<EmployeeModel> SingleEmployee(int id)
+        public async Task<EmployeeModel> SingleEmployee(int id)
         {
-            throw new System.NotImplementedException();
+            var parameters = new DynamicParameters(); // Native API call thats why its faster than EF
+            parameters.Add("Id", id, DbType.Int32);
+            EmployeeModel employee = new EmployeeModel();
+            using (var con = new SqlConnection(Configuration.value))
+            {
+                if (con.State == ConnectionState.Closed)
+                {
+                    con.Open();
+                    try
+                    {
+                        employee= await con.QueryFirstAsync<EmployeeModel>(
+                            "Get_SingleEmployee",parameters, commandType: CommandType.StoredProcedure); // QueryFirstAsync is used to fetch single record
+                    }
+                    catch (Exception ex)
+                    {
+                        throw ex;
+                    }
+                    finally
+                    {
+                        if (con.State == ConnectionState.Open)
+                        {
+                            con.Close();
+                        }
+                    }
+                }
+
+            }
+            return employee;
         }
     }
 }
+    

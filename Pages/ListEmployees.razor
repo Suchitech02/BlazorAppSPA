@@ -1,0 +1,30 @@
+@using BlazorAppSPA.DAL
+@using BlazorAppSPA.Repository
+@using BlazorAppSPA.DTO
+@page "/ListEmployees"
+@inject IEmployeeService employeeService
+
+<h2>Employee Details</h2>
+<p>
+    <a href="/AddEmployee">Create New Employee</a>
+</p>
+
+
+
+
+
+
+
+
+
+
+@code
+{
+    IEnumerable<EmployeeModel> employeeModels;
+    protected override async Task OnInitializedAsync() // similar to PageLoad() in asp.net, and init() in angular
+    {
+        employeeModels = await employeeService.GetEmployees();
+
+
+    }
+}
