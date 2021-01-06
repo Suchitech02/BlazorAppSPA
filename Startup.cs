@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using BlazorAppSPA.Data;
 using BlazorAppSPA.DAL;
 using BlazorAppSPA.Repository;
+using BlazorAppSPA.Configuration;
 
 namespace BlazorAppSPA
 {
@@ -32,8 +33,8 @@ namespace BlazorAppSPA
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
             services.AddTransient<IEmployeeService, EmployeeService>();
-            
-
+            var SqlConnectionConfiguration = new SqlConnectionConfiguration(Configuration.GetConnectionString("DefaultConnection"));
+            services.AddSingleton(SqlConnectionConfiguration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
