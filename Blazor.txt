@@ -1,0 +1,21 @@
+Browser ------------> Blazor ---------> Core WebAPI
+
+
+			Kestrel
+
+Case Study 2
+
+
+Browser ------------> Blazor (Data Access Layer) ---------> 
+			|	
+			|
+			|
+			Kestrel
+
+
+To work on a page in Blazor some remarkable points are respectively:
+1. using directive for importing namespace.
+2. for applying routing(Client Side) we use page directive. In case of Core MVC there is a concept of routing(Server Side).
+3. dependency injection can be applied also at page level(@inject directive) where as in case of core MVC dependency injection is applied at controller level by constructor, properties & methods.
+4. Blazor has having own lifecycle generally we apply OnInitializedAsync() similar in Asp.Net(PageLoad()).
+5. *** After compilation and execution of Blazor Application it gives you two files a) HTML b) Blazor.Assembly.JS(consistent connection known as SignalR)

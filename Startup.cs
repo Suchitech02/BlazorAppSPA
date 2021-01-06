@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlazorAppSPA.Data;
+using BlazorAppSPA.DAL;
+using BlazorAppSPA.Repository;
 
 namespace BlazorAppSPA
 {
@@ -29,6 +31,9 @@ namespace BlazorAppSPA
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddTransient<IEmployeeService, EmployeeService>();
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
