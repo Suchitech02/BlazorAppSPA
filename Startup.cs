@@ -33,6 +33,7 @@ namespace BlazorAppSPA
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
             services.AddTransient<IEmployeeService, EmployeeService>();
+            services.AddTransient<ICityService,CityService>();
             var SqlConnectionConfiguration = new SqlConnectionConfiguration(Configuration.GetConnectionString("DefaultConnection"));
             services.AddSingleton(SqlConnectionConfiguration);
         }

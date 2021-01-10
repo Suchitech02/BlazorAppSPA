@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using BlazorAppSPA.Models;
 
-namespace BlazorDapperSPA.Repository
+namespace BlazorAppSPA.Repository
 {
     public interface ICityService
     {

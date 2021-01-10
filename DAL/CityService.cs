@@ -1,12 +1,16 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using BlazorAppSPA.Models;
-using BlazorDapperSPA.Repository;
+using BlazorAppSPA.Repository;
 
 namespace BlazorAppSPA.DAL
 {
     public class CityService : ICityService
     {
+        public CityService()
+        {
+            
+        }
         public Task<bool> CreateCity(City city)
         {
             throw new System.NotImplementedException();

@@ -82,6 +82,21 @@ using BlazorAppSPA.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 1 "C:\BlazorAssignmnet2\BlazorAppSPA\Pages\AddEmployee.razor"
+using BlazorAppSPA.Repository;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\BlazorAssignmnet2\BlazorAppSPA\Pages\AddEmployee.razor"
+using BlazorAppSPA.Models;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/AddEmployee")]
     public partial class AddEmployee : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -89,6 +104,35 @@ using BlazorAppSPA.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 53 "C:\BlazorAssignmnet2\BlazorAppSPA\Pages\AddEmployee.razor"
+       
+
+    Employee employee = new Employee();
+    IEnumerable<City> cities = new List<City>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        cities = await cityService.GetCities();
+    }
+
+    protected async Task CreateEmployee()
+    {
+        await employeeService.CreateEmployee(employee);
+        navigationManager.NavigateTo("ListEmployees");
+    }
+
+    void Cancel()
+    {
+        navigationManager.NavigateTo("ListEmployees");
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ICityService cityService { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IEmployeeService employeeService { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
     }
 }
 #pragma warning restore 1591

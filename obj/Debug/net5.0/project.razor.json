@@ -45,72 +45,6 @@
         }
       },
       {
-        "HashCode": -926580769,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.AddEmployee",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AddEmployee"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.AddEmployee"
-        }
-      },
-      {
-        "HashCode": 1694225935,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.AddEmployee",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppSPA.Pages.AddEmployee"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.AddEmployee",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1201912833,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.Counter",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -1821811711,
-        "Kind": "Components.Component",
-        "Name": "BlazorAppSPA.Pages.Counter",
-        "AssemblyName": "BlazorAppSPA",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorAppSPA.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorAppSPA.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 510239469,
         "Kind": "Components.Component",
         "Name": "BlazorAppSPA.Pages.DeleteCity",
@@ -342,6 +276,39 @@
         }
       },
       {
+        "HashCode": 1201912833,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.Counter",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -1821811711,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.Counter",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -110456249,
         "Kind": "Components.Component",
         "Name": "BlazorAppSPA.Pages.ListEmployees",
@@ -371,6 +338,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorAppSPA.Pages.ListEmployees",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -926580769,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.AddEmployee",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.AddEmployee"
+        }
+      },
+      {
+        "HashCode": 1694225935,
+        "Kind": "Components.Component",
+        "Name": "BlazorAppSPA.Pages.AddEmployee",
+        "AssemblyName": "BlazorAppSPA",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAppSPA.Pages.AddEmployee"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAppSPA.Pages.AddEmployee",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
